@@ -8,10 +8,10 @@ import sys
 import typing
 
 
-def print_sep(str) -> None:
+def print_sep(string: str) -> None:
     print("---")
     print()
-    print(str, end="")
+    print(string, end="")
     print()
     print("---")
 
